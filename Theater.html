@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Theatre</title>
+<style>
+body{font-family:Arial;background:#eef2f7;margin:0;}
+h2{text-align:center;margin:30px;color:#333;}
+
+.container{
+    width:85%;
+    margin:auto;
+}
+.btn{
+    background:#007bff;
+    color:white;
+    padding:8px 15px;
+    border-radius:5px;
+    text-decoration:none;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+table{
+    width:100%;
+    background:white;
+    border-collapse:collapse;
+    box-shadow:0 5px 12px rgba(0,0,0,0.1);
+}
+th,td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+th{background:#343a40;color:white;}
+</style>
+</head>
+<body>
+
+<h2>Select Theatre for Booking</h2>
+
+<div class="container">
+
+    <table>
+        <tr>
+            <th>Theatre Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+            <td>Ramatalkis</td>
+            <td>Gajuwaka</td>
+            <td>Vizag</td>
+            <td>
+                <a href="selectShow.html?theatre=SriKanya" class="btn">Select</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Inox</td>
+            <td>pvp</td>
+            <td>Vizag</td>
+            <td>
+                <a href="selectShow.html?theatre=Inox" class="btn">Select</a>
+            </td>
+        </tr>
+        <tr>
+        <td>STBL</td>
+        <td>Sheela Nagar</td>
+        <td>Vizag</td>
+        <td>
+        	<a href="selectShow.html?theatre=STBL" class="btn">Select</a>
+        </tr>
+
+    </table>
+</div>
+
+
+</body>
+</html>
